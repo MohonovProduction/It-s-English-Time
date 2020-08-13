@@ -1,0 +1,424 @@
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	background-color: rgb(80,46,82);
+}
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header {
+	background-color: rgb(155,91,158);
+	margin: 0px;
+	padding: 20px;
+	color: #fff;
+}
+h1 {
+	font-size: 32px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.symbol {
+	margin: 0px;
+}
+.point {
+	cursor: pointer;
+}
+/* ГЛАВНЫЙ ТЕКСТ */
+	h2 {
+		background-color: rgb(155,91,158);
+		color: #fff;
+		padding: 5px;
+		padding-left: 20px;
+		margin-top: 30px;
+		margin-left: 10px;
+		margin-bottom: 5px;
+		border-left: solid;
+		border-width: 5px;
+		border-color: rgb(114,67,116);
+	}
+	h3 {
+		background-color: rgb(155,91,158);
+		color: #fff;
+		font-size: 13pt;
+		padding: 5px;
+		padding-left: 20px;
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-bottom: 5px;
+		border-left: solid;
+		border-width: 10px;
+		border-color: rgb(114,67,116);
+	}
+	.p {
+		background-color: #fff;
+		color: #000;
+		margin-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+	.ul {
+	background-color: #fff;
+	color: #000;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 35px;
+	padding: 10px;
+	padding-left: 30px;
+	}
+/* Выравнивание */
+	.row {
+		display: flex;
+		flex-direction: row;
+	}
+	.stroke {
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	.strokeCenter {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+/* Ссылки */
+	.mainLink {
+		text-decoration: none;
+		color: #fff;
+	}
+	.tenesLink {
+		color: #000;
+		text-decoration: none;
+		font-style: italic;
+		transition: 0.1s;
+		cursor: help;
+	}
+	.tenesLink:hover {
+		text-decoration: underline;
+		transition: 0.1s;
+	}
+/* Картинки*/
+	.iconT {
+		width: 35px;
+	}
+	.icon {
+		width: 30px;
+		transition: 0.3s;
+	}
+	.icon:hover {
+		width: 40px;
+		transition: 0.3s;
+	}
+	.imgWithText {
+		width: 20%;
+		height: 20%;
+		margin: 10px;
+		border-radius: 100%;
+		border-left: solid;
+		border-color: rgb(114,67,116);
+	}
+/* Настройки */
+	.seting {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		color: #fff;
+		margin: 5px;
+		height: 48px;
+	}
+	.aboutUl {
+		display: flex;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 40px; 
+		padding-left: 40px;
+		margin-left: 3px;
+		margin-right: 3px;
+		background-color: rgb(155,91,158);
+		border-right: dashed;
+		border-width: 5px;
+		border-color: rgb(114,67,116);
+		font-size: 20px;
+	}
+	.setingLi {
+		display: flex;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px; 
+		padding-left: 20px;
+		margin-left: 6px;
+		margin-right: 0px;
+		cursor: pointer;
+		background-color: rgb(155,91,158);
+		font-size: 20px;
+		transition: 0.3s;
+	}
+	.setingLi:hover {
+		font-size: 25px;
+		transition: 0.3s;
+	}
+		.setingT {
+		display: flex;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px; 
+		padding-left: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		cursor: pointer;
+		background-color: rgb(155,91,158);
+	}
+/* Таблица */
+	.table {
+		width: 100%;
+	}
+	.mainTd {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(155,91,158);
+		font-size: 27px;
+		padding: 10px;
+		color: #fff;
+		cursor: pointer;
+		transition: 0.3s;
+		height: 59px;
+	}
+	.mainTd:hover {
+		font-size: 35px;
+		transition: 0.3s;
+	}
+	/* Строки */
+		.tr {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+		}
+	/* Примеры */
+		.AAE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: #fff;
+		}
+		.ABE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(254, 245, 240);
+		}
+		.ACE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(240, 243, 250);
+		}
+		.ADE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(236, 244, 232);
+		}
+		.BAE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(242,242,242);
+		}
+		.BBE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(252,228,214);
+		}
+		.BCE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(217,225,242);
+		}
+		.BDE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(226,239,218);
+		}
+		.CAE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(217,217,217);
+		}
+		.CBE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(248,203,173);
+		}
+		.CCE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(180,198,231);
+		}
+		.CDE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(198,224,180);
+		}
+		.DAE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(191,191,191);
+		}
+		.DBE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(244,176,132);
+		}
+		.DCE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(142,169,219);
+		}
+		.DDE {
+			border-bottom: solid;
+			border-width: 5px;
+			border-color: rgb(169,208,142); 
+		}
+	/* Ячейки */
+		.Amain {
+			font-weight: bold;
+			font-style: italic;
+		}
+		.SM {
+			font-style: italic;
+		}
+		.AA {
+			width: 10%;
+			text-align: right;
+			padding: 10px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: rgb(242,242,242);
+		}
+		.AB {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(252,228,214);
+		}
+		.AC {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(217,225,242);
+		}
+		.AD {
+			width: 30%;	
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(226,239,218);
+		} 
+		.BA {
+			width: 10%;
+			text-align: right;
+			padding: 10px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: rgb(217,217,217);
+		}
+		.BB {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(248,203,173);
+		}
+		.BC {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(180,198,231);
+		}
+		.BD {
+			width: 30%;	
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(198,224,180);
+		} 
+		.CA {
+			width: 10%;
+			text-align: right;
+			padding: 10px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: rgb(191,191,191);
+		}
+		.CB {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(244,176,132);
+		}
+		.CC {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(142,169,219);
+		}
+		.CD {
+			width: 30%;	
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(169,208,142);
+		} 
+		.DA {
+			width: 10%;
+			text-align: right;
+			padding: 10px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: rgb(166,166,166);
+		}
+		.DB {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(242,157,100);
+		}
+		.DC {
+			width: 30%;
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(109,145,209);
+		}
+		.DD {
+			width: 30%;	
+			padding: 10px;
+			text-align: center;
+			background-color: rgb(131,181,93);  
+		} 
+/* Подвал */
+	.under {
+		background-color: rgb(80,46,82);
+		font-size: 10pt;
+		margin: 0px;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		height: 100px;
+	}
+	.underLinks {
+		margin-left: 20px;
+		color: rgb(226,239,223);
+		text-decoration: none;
+		transition: 0.2s;
+	}
+	.underLinks:hover {
+		font-size: 14px;
+		transition: 0.2s;
+	}
+	.vk {
+	background-color: #fff;
+	margin: 10px;
+	padding: 10px;
+	}
